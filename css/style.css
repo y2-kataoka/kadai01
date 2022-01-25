@@ -1,0 +1,134 @@
+/* ここから下に記載していく */
+/* ここからヘッダーデザイン */
+.header__nav{
+    display: flex;
+}
+
+.header__nav li{
+    margin-left: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*ここからメインビジュアル*/
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.mainvisual__title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.mainvisual__subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*ここからABOUT*/
+
+.ABOUT__title{
+    font-size: 24px;
+    text-align: center;
+    color: #fd7e00;
+}
+
+.ABOUT__subtitle{
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.imgBox{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imgBox p{
+    width: 25%;
+}
+
+.imgBox p img{
+    width: 100%;
+}
+
+/*ここからCourse*/
+.Course__title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.Course__subtitle{
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+
+figure.side_image1 {
+    display: inline-block;
+  }
+   
+  p.side_text {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middlle;
+  }
+
+figure.side_image2 {
+    display: inline-block;
+  }
+   
+  p.side_text {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middlle;
+  }
+
+  
+figure.side_image3 {
+    display: inline-block;
+  }
+   
+  p.side_text {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middlle;
+  }
+
+  /*ここからNEWS*/
+.NEWS__title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.NEWS__subtitle{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.imgBox　NEWS{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.imgBox p{
+    width: 25%;
+}
+
+.imgBox p img{
+    width: 100%;
+}
